@@ -1,0 +1,48 @@
+# Site title
+title: Tarun Kumar Jana
+
+# Site description
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+# Production URL
+url: "https://www.tarunjana.in"
+
+# Build settings
+theme: minima
+show_excerpts: true
+permalink: pretty
+timezone: Asia/Kolkata
+exclude: [dev.sh, README.md]
+plugins:
+  - jekyll-feed
+
+# Author metadata
+author:
+  name: Tarun Kumar Jana
+  email: "tarunjana@duck.com"
+
+# Theme options
+minima:
+  skin: auto
+  social_links:
+    - { platform: facebook,  user_url: "https://facebook.com/MrTarunJana" }
+    - { platform: github,  user_url: "https://github.com/tarunjana" }
+    - { platform: twitter, user_url: "https://twitter.com/MrTarunJana" }
+    - { platform: rss, user_url: "https://www.tarunjana.in/feed.xml" }
+
+# Menu entries
+header_pages:
+  - about.md
+
+# Frontmatter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Tarun Kumar Jana"
